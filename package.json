@@ -1,0 +1,22 @@
+{
+  "name": "typescript-learn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.ts",
+  "scripts": {
+    "test": "mocha test",
+    "start": "ts-node app.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "@types/cheerio": "^0.22.11",
+    "@types/request": "^2.48.1",
+    "ts-node": "^8.1.0",
+    "typescript": "^3.4.4"
+  }
+}
