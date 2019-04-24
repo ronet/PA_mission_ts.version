@@ -13,7 +13,6 @@ export class CrawlerImpl implements Crawler {
 
     async titleParser(url: string, element: string): Promise<{ title: string, href: string }[]> {
         const body = await new CrawlerImpl().pageRequest(url);
-        console.log(typeof body)
         const $ = cheerio.load(body);
 
         return $(element).map((_i, e) => {
